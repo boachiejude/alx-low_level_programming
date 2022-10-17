@@ -2,9 +2,9 @@
 
 /**
 * main - Entry point of the program
-* description - using printf to print a string to stdout
-* return - 0
-*/ 
+* Description: using printf to print a string to stdout
+* Return: 0
+*/
 
 int main(void)
 {
