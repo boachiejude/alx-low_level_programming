@@ -8,6 +8,6 @@
 
 int main(void)
 {
-    printf("Hello, World!");
-    return 0;
+printf("Hello, World!");
+return 0;
 }
