@@ -3,7 +3,7 @@
 /**
 * main - Entry point of the program
 * description - outputting the sizes of var types
-* return - 0
+* Return: 0
 */
 
 int main(void)
