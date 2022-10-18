@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers go there */
+#include <stdio.h>
 
 /**
  * main: the code entry point
