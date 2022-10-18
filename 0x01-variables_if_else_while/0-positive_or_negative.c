@@ -4,7 +4,7 @@
 
 /**
  * main: the code entry point
- * description: positive or negative
+ * Description: positive or negative
  * Return: 0
 **/
 int main(void)
