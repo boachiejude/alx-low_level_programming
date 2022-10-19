@@ -13,7 +13,7 @@ int iter;
 
 iter = 0;
 
-while (iter <10)
+while (iter < 10)
 {
 for (ch = 'a'; ch <= 'z'; ++ch)
 _putchar(ch);
