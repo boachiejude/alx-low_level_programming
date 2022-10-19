@@ -5,12 +5,12 @@
  * Description: alphabet game
  * Return: 0 successful
 */
-
 void print_alphabet_x10(void)
 {
 	int ch;
 
 	int iter;
+
 	iter = 0;
 
 	while (iter <10)
