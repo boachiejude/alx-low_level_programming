@@ -1,7 +1,7 @@
 /**
  * _isdigit: checks if c is a digit
- * Description: description
  * @c: input for digitor otherwise
+ * Description: description
  * Return 1 if c is digit or 0 if otherwise
 **/
 int _isdigit(int c)

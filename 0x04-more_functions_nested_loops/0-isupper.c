@@ -1,5 +1,5 @@
 /**
- * main: entry point
+ * _isupper: isupper function
  * Desription: main function
  * @c: input for alphabet
  * Return: 1 if upper or 0 if lower

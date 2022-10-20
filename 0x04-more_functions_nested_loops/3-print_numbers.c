@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * print_numbers: function
  * Description: prints numbers 0123456789
- * Return: void
+ * Return: 0 - success
 **/
 void print_numbers(void)
 {

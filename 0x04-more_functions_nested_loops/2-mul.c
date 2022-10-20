@@ -2,7 +2,7 @@
  * mul: multiplies two integers
  * @a: first integer
  * @b: second integer
- * Description: a * b
+ * Description: description
  * Return: product of a and b
 **/
 int mul(int a, int b)
