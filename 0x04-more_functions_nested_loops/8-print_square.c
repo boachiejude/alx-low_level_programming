@@ -1,5 +1,5 @@
 /**
- * print_square: you are so much sunshine in every square inch
+ * print_square - you are so much sunshine in every square inch
  * Description: prints squares of #
  * @size: the size of the square to print
  * Return: 0 - success

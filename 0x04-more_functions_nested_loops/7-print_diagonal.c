@@ -1,5 +1,5 @@
 /**
- * print_diagonal: yeah...you get it
+ * print_diagonal - yeah...you get it
  * @n: n diagonals
  * Description: description...
  * Return: 0 successful

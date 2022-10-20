@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: the fizz buzz function
+ * main - the fizz buzz function
  * Description: 1 - 100 fizz for threes and buzz for fives
  * Return: 0 - successful
 **/

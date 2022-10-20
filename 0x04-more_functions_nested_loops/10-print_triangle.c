@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_triangle: Triangles
+ * print_triangle - Triangles
  * Description: prints triangles
  * @size: size of the triangle lol
  * Return: 0 - successful

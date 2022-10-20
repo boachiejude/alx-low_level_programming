@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_line: prints lines
+ * print_line - prints lines
  * @n: number of underscores to print
  * Description: prints lines ugh
  * Return: 0 success
