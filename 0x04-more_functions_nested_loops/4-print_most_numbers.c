@@ -9,5 +9,4 @@ void print_most_numbers(void)
 {
 	printf("01356789\n");
 
-	return (0);
 }
