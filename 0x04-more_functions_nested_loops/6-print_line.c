@@ -1,22 +1,22 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
- * print_line - prints lines
- * @n: number of underscores to print
- * Description: prints lines ugh
- * Return: 0 success
-**/
+ * print_line - print a straight line
+ *
+ * @n: is the number of times the _ character
+ *     should be printed
+*/
+
 void print_line(int n)
 {
+	int lnChr;
+
 	if (n <= 0)
-	{
-		printf("\n");
-	}
+		_putchar('\n');
 	else
 	{
-		for (int i = 0; i < n; i++)
-		{
-			printf("_");
-		}
+		for (lnChr = 1; lnChr <= n; ++lnChr)
+			_putchar('_');
+		_putchar('\n');
 	}
 }
