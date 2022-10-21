@@ -1,4 +1,5 @@
-#include"main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_square - print a square using the character #
@@ -10,14 +11,11 @@
 
 void print_square(int size)
 {
-	int row, column;
-
-	for (row = 0; row < size; ++row)
+	for (int i = 0; i < size; i++)
 	{
-		for (column = 0; column <= size; ++column)
+		for (int j = 0; j < size; j++)
 		{
-			_putchar('#');
-		}
-		_putchar('\n');
+			printf("#");
+		};
 	};
-}
+};
