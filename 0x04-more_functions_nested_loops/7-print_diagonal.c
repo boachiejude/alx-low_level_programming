@@ -5,6 +5,7 @@
  *
  * @n: is the number of times the \ character
  *     should be printed
+ * Return: 0 - success
 */
 
 void print_diagonal(int n)
