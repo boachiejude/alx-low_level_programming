@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /**
  * main - entry point
  * Description: prints alphabets
@@ -10,7 +8,7 @@ int main(void)
 {
 	for (int i = 0; i < 10; i++)
 	{
-		_putchar(i+1);
+		putchar(i+1);
 	}
 
 	return (0);
