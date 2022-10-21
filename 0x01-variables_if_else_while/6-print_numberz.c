@@ -1,15 +1,25 @@
+#include<stdio.h>
+
 /**
- * main - entry point
- * Description: prints alphabets
- * Return: 0 - successful
-**/
+ * main - Entry point
+ *
+ * Description: print 0-9 using putchar
+ *              while using int variable
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int digit = 0;
+
+	while (digit <= 9)
 	{
-		putchar(i + 1);
+		/*convert digit to ASCII representation*/
+		putchar(digit + '0');
+		++digit;
 	}
+	putchar('\n');
 
 	return (0);
 }
