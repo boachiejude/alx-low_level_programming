@@ -10,6 +10,12 @@
 
 void print_rev(char *s)
 {
-	strrev(s);
-	printf("%d\n", s);
+	int length = strlen(s);
+	int i = 0;
+
+	while (length)
+	{
+		printf("%s", s[length - i]);
+		i++;
+	}
 }
