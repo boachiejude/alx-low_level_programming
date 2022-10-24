@@ -19,7 +19,7 @@ void puts_half(char *s)
 		length++;
 
 	/*finds the length of string without null character*/
-	for (index = (length / 2); index < length; ++index)
+	for (index = (length / 2); index < length; index++)
 	{
 		putchar(s[index]);
 	}
