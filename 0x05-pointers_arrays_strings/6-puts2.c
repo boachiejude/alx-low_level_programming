@@ -9,7 +9,7 @@
  * Return: Nothing
 */
 
-void print_rev(char *s)
+void puts2(char *s)
 {
 	int index;
 
