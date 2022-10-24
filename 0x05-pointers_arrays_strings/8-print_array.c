@@ -26,10 +26,10 @@ void print_array(int *a, int n)
 			printf("%d", b);
 			if (i == (n - 1))
 			{
-				printf("\n");
 				break;
-			}
+			};
 			printf(", ");
-		}
+		};
+		printf("\n");
 	}
 }
