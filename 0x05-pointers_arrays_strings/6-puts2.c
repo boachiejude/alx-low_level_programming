@@ -16,7 +16,7 @@ void puts2(char *s)
 	/*finds the length of string without null character*/
 	for (index = 0; s[index] != '\0'; ++index)
 	{
-		if (index != 0 && index % 2 == 0)
+		if (index % 2 == 1)
 			continue;
 		putchar(s[index]);
 	}
