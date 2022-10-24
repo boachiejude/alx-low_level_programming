@@ -1,9 +1,5 @@
-#include"main.h"
-#include <stdio.h>
-#include <string.h>
-
 /**
- * rev_string - prints a string in reverse
+ * rev_string - reverses a string
  *
  * @s: string parameter input
  *
@@ -12,11 +8,19 @@
 
 void rev_string(char *s)
 {
-	int index;
-	int len = strlen(s);
+	int l, i;
+	char ch;
 
-	for (index = 0;index < len; index--)
+	/*find string length without null char*/
+	for (l = 0; s[l] != '\0'; ++l)
+		;
+
+	/*swap the string by looping to half the string*/
+	for (i = 0; i < l / 2; ++i)
 	{
-		printf(index);
+		ch = s[i];
+		s[i] = s[l - 1 - i]; /*-1 because the array starts from 0*/
+		s[l - 1 - i] = ch;
 	}
+
 }
