@@ -13,13 +13,10 @@
 void rev_string(char *s)
 {
 	int index;
-	int *a = *s;
-	char b;
-	*a = b;
 	int len = strlen(s);
 
 	for (index = 0;index < len; index--)
 	{
-		s[index] = a[len - index];
+		printf(index);
 	}
 }
