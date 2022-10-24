@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 /**
  * _puts - function
@@ -9,5 +9,5 @@
 
 void _puts(char *str)
 {
-	puts(str);
+	printf("%s\n", str);
 }
