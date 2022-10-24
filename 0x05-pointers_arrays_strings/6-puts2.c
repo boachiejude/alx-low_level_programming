@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_rev - prints a string in reverse
+ * puts2 - prints a string in reverse
  *
  * @s: string parameter input
  *
@@ -15,15 +15,7 @@ void puts2(char *s)
 
 	/*finds the length of string without null character*/
 	for (index = 0; s[index] != '\0'; ++index)
-		;
-
-	/*print char from the last index as you decrement*/
-	for (--index; index >= 0; --index)
 	{
-		if (index % 2 == 0)
-		{
-			continue;
-		}
 		putchar(s[index]);
 	}
 	putchar('\n');
