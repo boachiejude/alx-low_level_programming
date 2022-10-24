@@ -1,27 +1,28 @@
 #include"main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
- * puts_half - prints a string in reverse
+ * puts_half - prints half of a string
  *
- * @s: string parameter input
+ * @str: string parameter input
  *
- * Return: void
+ * Return: Nothing
 */
 
-void puts_half(char *s)
+void puts_half(char *str)
 {
-	int index;
-	int length = strlen(s);
+	int l, n;
 
-	if (length % 2 == 1)
-		length++;
+	for (l = 0; str[l] != '\0'; ++l)
+		;
 
-	/*finds the length of string without null character*/
-	for (index = (length / 2); index < length; index++)
+	if (l % 2 == 0)
 	{
-		putchar(s[index]);
+		for (n = l / 2; str[n] != '\0'; ++n)
+			_putchar(str[n]);
+	} else
+	{
+		for (n = ((l - 1) / 2) + 1; str[n] != '\0'; ++n)
+			_putchar(str[n]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
