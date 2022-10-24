@@ -10,6 +10,9 @@
 
 int _strlen(char *s)
 {
-	printf(strlen(s));
+	int len;
+
+	len = strlen(s);
+	printf("stlen(str1) :  %d\n", len );
 	return (0);
 }
