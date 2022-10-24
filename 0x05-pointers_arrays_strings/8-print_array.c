@@ -12,17 +12,24 @@ void print_array(int *a, int n)
 {
 	int b, i;
 
-	/* Loops through the array */
-	for (i = 0; i < n; i++)
+	if (n < 0)
 	{
-		b = a[i];
-
-		printf("%d", b);
-		if (i == (n - 1))
+		printf("\n");
+	}
+	else
+	{
+		/* Loops through the array */
+		for (i = 0; i < n; i++)
 		{
-			printf("\n");
-			break;
+			b = a[i];
+
+			printf("%d", b);
+			if (i == (n - 1))
+			{
+				printf("\n");
+				break;
+			}
+			printf(", ");
 		}
-		printf(", ");
 	}
 }
