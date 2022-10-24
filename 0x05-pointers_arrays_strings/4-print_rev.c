@@ -10,5 +10,6 @@
 
 void print_rev(char *s)
 {
-	printf("%d\n", strrev(s));
+	strrev(s);
+	printf("%d\n", s);
 }
