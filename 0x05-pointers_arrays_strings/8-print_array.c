@@ -18,5 +18,11 @@ void print_array(int *a, int n)
 		b = a[i];
 
 		printf("%d", b);
+		if (i == n)
+		{
+			printf("\n");
+			break;
+		}
+		printf(", ");
 	}
 }
