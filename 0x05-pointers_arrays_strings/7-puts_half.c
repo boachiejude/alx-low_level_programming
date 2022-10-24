@@ -7,13 +7,16 @@
  *
  * @s: string parameter input
  *
- * Return: Nothing
+ * Return: void
 */
 
 void puts_half(char *s)
 {
 	int index;
 	int length = strlen(s);
+
+	if (length % 2 == 1)
+		length++;
 
 	/*finds the length of string without null character*/
 	for (index = (length / 2); index < length; ++index)
