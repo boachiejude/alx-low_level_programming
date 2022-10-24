@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints comma-separated elements of an array
@@ -9,10 +10,12 @@
 
 void print_array(int *a, int n)
 {
+	int b;
+
 	for (int i = 0; i < n; i++)
 	{
-		int b = a[i];
-		
+		b = a[i];
+
 		printf("%d", b);
 	}
 }
