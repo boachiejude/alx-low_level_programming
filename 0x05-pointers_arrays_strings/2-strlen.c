@@ -4,10 +4,11 @@
 /**
  * _strlen - function that prints the length of a string
  * @s: char variable
- * Return: void
+ * Return: 0
 **/
 
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	printf(strlen(s));
+	return (0);
 }
