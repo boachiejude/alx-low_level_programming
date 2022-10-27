@@ -18,5 +18,4 @@ void reverse_array(int *a, int n)
 		a[i] = a[n - 1 - i]; /*-1 because the array starts from 0*/
 		a[n - 1 - i] = ch;
 	}
-	return (0);
 }
