@@ -7,6 +7,7 @@
  * @c: input for an integer value
  * Return: 1 if the input is a letter
 **/
+
 int _isalpha(int c)
 {
 	if (islower(c) || isupper(c))

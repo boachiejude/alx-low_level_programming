@@ -7,6 +7,7 @@
  *  @c: input for an integer
  *  Return: 1, 0 if lower or upper respectively
 **/
+
 int _islower(int c)
 {
 	if (islower(c))
