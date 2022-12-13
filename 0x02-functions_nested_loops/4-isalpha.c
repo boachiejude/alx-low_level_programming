@@ -4,7 +4,7 @@
  * _isalpha: checks if a function is a letter
  * Description: function
  * @c: input for an integer value
- * Returns: 1 if the input is a letter
+ * Return: 1 if the input is a letter
 */
 int _isalpha(int c)
 {
