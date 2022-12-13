@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _isupper - checks if a character is in uppercase
+ * _islower - checks if a character is in uppercase
  * Description: function
  *  @c: input for an integer
  *  Return: 1, 0 if lower or upper respectively
