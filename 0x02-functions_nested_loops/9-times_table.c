@@ -20,15 +20,15 @@ void times_table()
 			m = i * j;
 			if (m < 9)
 			{
-				printf(" %d", m);
+				printf("  %d", m);
 			}
 			else
 			{
-				printf("%d", m);
+				printf(" %d", m);
 			}
 			if (j != 12)
 			{
-				printf(", ");
+				printf(",");
 			};
 		};
 		if (i != 9)
