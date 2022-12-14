@@ -9,9 +9,12 @@
 
 void times_table()
 {
-	for (int i = 0; i <= 98; i++)
+	int i;
+	int j;
+	
+	for (i = 0; i <= 98; i++)
 	{
-		for (int j = 0; j <= 12; j++)
+		for (j = 0; j <= 12; j++)
 		{
 			printf(i *j);
 		};
