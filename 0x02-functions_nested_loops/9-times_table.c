@@ -13,7 +13,7 @@ void times_table()
 	int j;
 	int m;
 	
-	for (i = 0; i <= 98; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 12; j++)
 		{
