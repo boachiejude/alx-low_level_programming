@@ -12,7 +12,14 @@ int print_last_digit(int n)
 {
 	int last_digit;
 
-	n = _abs(n);
+	if (n < 0)
+	{
+		n *= -1;
+	}
+	if (n == 0)
+	{
+		return (00);
+	};
 	last_digit = n % 10;
 	return (last_digit * 11);
 }
