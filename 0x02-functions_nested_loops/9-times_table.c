@@ -7,15 +7,15 @@
  * Returns: None
 */
 
-void times_table()
+void times_table(void)
 {
 	int i;
 	int j;
 	int m;
-	
+
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 12; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			m = i * j;
 			if (m < 9)
@@ -26,7 +26,7 @@ void times_table()
 			{
 				printf(" %d", m);
 			}
-			if (j != 12)
+			if (j != 9)
 			{
 				printf(",");
 			};
