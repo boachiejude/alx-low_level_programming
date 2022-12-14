@@ -26,7 +26,7 @@ void times_table()
 			{
 				printf("%d", m);
 			}
-			if (j != 9)
+			if (j != 12)
 			{
 				printf(", ");
 			};
