@@ -5,10 +5,10 @@
  * print_to_98 - func
  * Description: prints all natural numbers from n to 100
  * @n: starting integer
- * Returns: 0 successful
+ * Return: None
 */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	for (int i = n; i <= 98; i++)
 	{

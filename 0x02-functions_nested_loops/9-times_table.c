@@ -4,10 +4,10 @@
 /**
  * times_table - func
  * Description: prints all the times tables up to 9
- * Returns: 0 successful
+ * Returns: None
 */
 
-int times_table()
+void times_table()
 {
 	for (int i = 0; i <= 98; i++)
 	{

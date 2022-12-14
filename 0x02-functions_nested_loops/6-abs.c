@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ * _abs - func
+ * Description: computes abs value
+ * @r: input integer
+ * Return: abs value or r
 */
 int _abs(int r)
 {
@@ -15,6 +19,6 @@ int _abs(int r)
 	}
 	else
 	{
-		return (r)
+		return (r);
 	}
 }
