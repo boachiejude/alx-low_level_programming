@@ -21,5 +21,6 @@ int print_last_digit(int n)
 		return (00);
 	};
 	last_digit = n % 10;
-	return (last_digit * 11);
+	last_digit *= 11;
+	return ("%d\n", last_digit);
 }
