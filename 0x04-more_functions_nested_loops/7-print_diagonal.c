@@ -25,7 +25,7 @@ void print_diagonal(int n)
 				printf(" ");
 				i--;
 			}
-			printf("\");
+			printf("\\");
 		}
 	}
 }
