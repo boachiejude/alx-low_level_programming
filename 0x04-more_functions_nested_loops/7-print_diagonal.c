@@ -5,7 +5,7 @@
  *
  * @n: is the number of times the \ character
  *     should be printed
- * Return: 0 - success
+ * Return: none
 */
 
 void print_diagonal(int n)
@@ -16,7 +16,9 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (int i = 0; i < n; i++)
+		int i;
+
+		for (i = 0; i < n; i++)
 		{
 			while (i > 0)
 			{
