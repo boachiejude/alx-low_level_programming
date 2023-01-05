@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * puts_recursion - prints a string with recursion
+ * _puts_recursion - prints a string with recursion
  * @s: the string to print
  * Return: None
 **/
-void puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
 		printf("%c", *s);
-		puts_recursion(s + 1);
+		_puts_recursion(s + 1);
 	}
 }
