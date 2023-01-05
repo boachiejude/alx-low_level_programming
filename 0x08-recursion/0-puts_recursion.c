@@ -4,7 +4,7 @@
  * @i: index keeper variable
  * Return: None
 **/
-void puts_recursion(char *s, int i = 0)
+void puts_recursion(char *s, int i)
 {
 	_putchar(s[i]);
 	puts_recursion(s, i - 1);
