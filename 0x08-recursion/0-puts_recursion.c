@@ -1,11 +1,13 @@
 /**
  * puts_recursion - prints a string with recursion
  * @s: the string to print
- * @i: index keeper variable
  * Return: None
 **/
-void puts_recursion(char *s, int i = 0)
+void puts_recursion(char *s)
 {
-	_putchar(s[i]);
-	puts_recursion(s, i - 1);
+	if (*s)
+	{
+		printf("%c", *s);
+		printString(s + 1);
+	}
 }
