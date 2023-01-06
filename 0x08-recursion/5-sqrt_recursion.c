@@ -4,8 +4,12 @@
  * @i: current guess of the square root
  * Return: sqrt of n
 **/
-int _sqrt_recursion(int n, int i = 0)
+int _sqrt_recursion(int n, int i)
 {
+	if (i == 0)
+	{
+			return _sqrt_recursion(n, i + 1);
+	}
 	if (i * i == n)
 	{
 		return i;
