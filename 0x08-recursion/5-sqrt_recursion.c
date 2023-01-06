@@ -21,6 +21,6 @@ int _sqrt_recursion(int n, int i, int p) {
    if (abs(i * i - n) < p) {
 	  return i;
    }
-   double nextGuess = (n / i + i) / 2;
+   int nextGuess = (n / i + i) / 2;
    return _sqrt_recursion(n, nextGuess, p);
 }
