@@ -18,9 +18,13 @@ int abs(int n)
  * Return: sqrt of n
 **/
 int _sqrt_recursion(int n, int i, int p) {
+	int nextGuess;
+
    if (abs(i * i - n) < p) {
 	  return i;
    }
-   int nextGuess = (n / i + i) / 2;
+
+   nextGuess = (n / i + i) / 2;
+
    return _sqrt_recursion(n, nextGuess, p);
 }
