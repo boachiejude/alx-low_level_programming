@@ -2,7 +2,7 @@
  * is_prime_number - determines if the number is a prime number
  * @n: number
  * @i: indexer
- * Returns: boolean indicating whether the number is prime or not
+ * Return: boolean indicating whether the number is prime or not
 */
 int is_prime_number(int n, int i)
 {
