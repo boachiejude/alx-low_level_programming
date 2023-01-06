@@ -5,20 +5,16 @@
  * Return: sqrt of n
 **/
 int _sqrt_recursion(int n, int i) {
-	if (i * i == n)
+	if (i)
 	{
-		return (i);
+		if (i * i == n)
+		{
+			return i
+		}
+		return _sqrt_recursion(n, i-1);
 	}
 	else
 	{
-		if (i)
-		{
-			return (_sqrt_recursion(n, i - 1));
-		}
-		else
-		{
-			i = n;
-		}
+		i = n;
 	}
-	return (i);
 }
